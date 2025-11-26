@@ -232,16 +232,16 @@
             <div class="ytm-upload-menu-title">歌詞アップロード</div>
             <button class="ytm-upload-menu-item" data-action="local">
                 <span class="ytm-upload-menu-item-icon">💾</span>
-                <span>ローカルLRCを読む</span>
+                <span>ローカルフォルダーのアップロード</span>
             </button>
             <button class="ytm-upload-menu-item" data-action="add-sync">
                 <span class="ytm-upload-menu-item-icon">✨</span>
-                <span>歌詞の追加/同期表示を追加</span>
+                <span>歌詞の同期表示を追加</span>
             </button>
             <div class="ytm-upload-menu-separator"></div>
             <button class="ytm-upload-menu-item" data-action="fix">
                 <span class="ytm-upload-menu-item-icon">✏️</span>
-                <span>歌詞の間違い修正リクエスト</span>
+                <span>歌詞の間違いを修正リクエスト</span>
             </button>
         `;
         ui.btnArea.appendChild(menu);
@@ -281,7 +281,7 @@
                     alert('動画IDが取得できませんでした。YouTube Music の再生画面で実行してください。');
                     return;
                 }
-                const githubUrl = `https://github.com/LRCHub/${vid}/edit/main/README.md`;
+                const githubUrl = `https://github.com/LRCCloud/${vid}/edit/main/README.md`;
                 window.open(githubUrl, '_blank');
             }
         });
