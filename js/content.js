@@ -190,32 +190,28 @@
     return result;
   };
 
-  // ターゲット言語ごとに「どのスクリプトを翻訳するか」
+  // 言語が入り交じってるときの翻訳動作（翻訳されない問題を修正する大事なやつ！）
   const shouldTranslateSegment = (script, langCode) => {
     const lang = (langCode || '').toLowerCase();
     if (script === 'OTHER') return false;
 
     switch (lang) {
       case 'ja':
-        // 日本語ターゲット: Latin / Hangul を翻訳（CJK はそのまま）
         return script === 'LATIN' || script === 'HANGUL';
       case 'en':
-        // 英語ターゲット: 非 Latin（CJK / Hangul）を翻訳
         return script === 'CJK' || script === 'HANGUL';
       case 'ko':
-        // 韓国語ターゲット: Latin / CJK を翻訳（Hangul はそのまま）
         return script === 'LATIN' || script === 'CJK';
       default:
-        // その他: とりあえず非 Latin を翻訳
         return script !== 'LATIN';
     }
   };
 
-  // mixed 行がそのまま返ってきたとき用の「部分翻訳」fallback
+
   const translateMixedSegments = async (lines, indexes, langCode, targetLang) => {
     try {
       const segmentsToTranslate = [];
-      const perLineSegments = {}; // lineIndex -> [{ original, translateIndex|null }]
+      const perLineSegments = {};
 
       indexes.forEach(idx => {
         const line = lines[idx];
@@ -310,7 +306,7 @@
 
       let translated = res.translations.map(t => t.text || '');
 
-      // 行全体の翻訳結果が元と同じ & mixed な行だけ、部分翻訳 fallback をかける
+      // 部分翻訳 のやつ！
       const fallbackIndexes = [];
       for (let i = 0; i < lines.length; i++) {
         const src = baseTexts[i];
