@@ -2602,12 +2602,17 @@
 
     })();
 
-    document.getElementById('save-settings-btn').onclick = () => {
-      // ★変更: リロードが必要な設定が変わったかを判定するために、変更前の値を保持
-      const oldUiLang = config.uiLang;
-      const oldMainLang = config.mainLang;
-      const oldSubLang = config.subLang;
-      const oldUseTrans = config.useTrans;
+    document.getElementById('save-settings-btn').onclick = async () => {
+      
+      const savedUiLang = await storage.get('ytm_ui_lang');
+      const savedMainLang = await storage.get('ytm_main_lang');
+      const savedSubLang = await storage.get('ytm_sub_lang');
+      const savedUseTrans = await storage.get('ytm_trans_enabled');
+
+      const prevUiLang = savedUiLang || 'ja';
+      const prevMainLang = savedMainLang || 'original';
+      const prevSubLang = savedSubLang !== null ? savedSubLang : 'en'; 
+      const prevUseTrans = savedUseTrans !== null ? savedUseTrans : true;
 
       config.deepLKey = document.getElementById('deepl-key-input').value.trim();
       config.useTrans = document.getElementById('trans-toggle').checked;
@@ -2633,10 +2638,10 @@
       storage.set('ytm_save_sync_offset', config.saveSyncOffset);
 
       const needReload = (
-          oldUiLang !== config.uiLang ||
-          oldMainLang !== config.mainLang ||
-          oldSubLang !== config.subLang ||
-          oldUseTrans !== config.useTrans
+          prevUiLang !== config.uiLang ||
+          prevMainLang !== config.mainLang ||
+          prevSubLang !== config.subLang ||
+          prevUseTrans !== config.useTrans
       );
 
       if (needReload) {
